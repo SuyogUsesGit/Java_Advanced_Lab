@@ -1,0 +1,18 @@
+Ans 1) Classes to be designed are:
+	1) Customer
+	2) Account
+	3) Savings Account
+	4) Overdraft Account
+
+Ans 2) Account has a Customer - Has-a relationship (Aggregation)
+	Savings Account extends Account - Savings Account Is-a Account (Generalization)
+	Overdraft Account extends Account - Overdraft Account is a Account (Generalization)
+
+Ans 3) Customer member variables - id, name, address, pincode
+		methods - set id, get id, set name, get name, set address, get address, set pincode, set pincode
+	Account member variables - account number, customer, balance
+		methods - withdraw, deposit
+	Savings Account member variables - minimum balance, interest rate
+		methods - withdraw, deposit, calculate interest
+	Overdraft account member variables - balance, overdraft amount 
+		methods - withdraw, deposit, view overdraft amount

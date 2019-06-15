@@ -1,0 +1,5 @@
+Ans 1) The java compiler compiles the java source code file (.java file) to generate .class file(s)
+
+Ans 2) .class files are also called as bytecodes. Yes .class files are platform independent
+
+Ans 3) Java Virtual Machine is used to deploy WellsBank software. No, JVM is different for each operating system and not platform dependent
